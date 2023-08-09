@@ -60,7 +60,7 @@ initOpenMenu();
 const initAnimationScroll = () => {
   const sections = document.querySelectorAll(".js-section");
 
-  const windowHalfSize = window.innerHeight * 0.6;
+  const windowHalfSize = window.innerHeight * 0.5;
 
   const animateScroll = () => {
     sections.forEach((item) => {
