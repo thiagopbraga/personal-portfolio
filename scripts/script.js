@@ -70,8 +70,6 @@ const initAnimationScroll = () => {
 
       if (isSectionVisible) {
         item.classList.add("active");
-      } else {
-        item.classList.remove("active");
       }
     });
   };
