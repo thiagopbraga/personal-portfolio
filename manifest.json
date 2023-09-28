@@ -1,0 +1,18 @@
+{
+  "name": "Thiago Braga - Desenvolvedor",
+  "short-name": "Desenvolvedor",
+  "description": "Site pessoal do Desenvolvedor Thiago Braga",
+  "start_url": "/index.html",
+  "theme_color": "#e82120",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "fullscreen",
+  "icons": [
+    {
+      "src": "assets/avatar2.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

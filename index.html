@@ -4,12 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio de Thiago Braga, desenvolvedor web e mobile"
+    />
+    <meta name="theme-color" content="#e82120" />
+
     <title>Portfólio | Thiago Braga - Desenvolvedor</title>
-    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/avatar2.png" type="image/x-icon" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+    <link rel="manifest" href="manifest.json" />
     <link rel="stylesheet" href="styles/css/style.css" />
     <script defer src="scripts/script.js"></script>
     <script defer src="scripts/modal.js"></script>
@@ -25,8 +32,8 @@
           <h2>Portfólio</h2>
         </a>
         <div class="toggle">
-          <input type="checkbox" name="checkbox" id="checkbox" />
           <label for="checkbox" class="label">
+            <input type="checkbox" name="checkbox" id="checkbox" />
             <div class="box"></div>
           </label>
         </div>
@@ -54,7 +61,7 @@
           <div class="profile">
             <img
               src="assets/avatar2.png"
-              alt="avatar"
+              alt="Foto do desenvolvedor Thiago Braga"
               style="border-radius: 50%; border: 3px solid #e82120"
             />
           </div>
@@ -93,7 +100,7 @@
             </div>
             <div class="box">
               <p>React</p>
-              <img src="assets/languages/react-2.svg" />
+              <img src="assets/languages/react-2.svg" alt="react" />
             </div>
             <div class="box">
               <p>C#</p>
@@ -197,5 +204,29 @@
         <a href="#contacts">Contatos</a>
       </nav>
     </div>
+
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("/service-worker.js")
+          .then(function (registration) {
+            console.log("Service Worker registrado com sucesso:", registration);
+          })
+          .catch(function (error) {
+            console.error("Erro ao registrar o Service Worker:", error);
+          });
+      }
+
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("/service-worker.js")
+          .then(function (registration) {
+            console.log("Service Worker registrado com sucesso:", registration);
+          })
+          .catch(function (error) {
+            console.error("Erro ao registrar o Service Worker:", error);
+          });
+      }
+    </script>
   </body>
 </html>
