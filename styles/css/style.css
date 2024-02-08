@@ -253,7 +253,7 @@ section#sobre .banner {
   }
 }
 @media (max-width: 480px) {
-  section#sobre .banner .profile {
+  section#sobre .banner  {
     text-align: center;
   }
 }
