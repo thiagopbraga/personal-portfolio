@@ -976,3 +976,14 @@ body.light-mode .modal h2 {
 body.light-mode .menuOpen h2 {
   color: #f9f9f9 !important;
 }
+
+body.light-mode #skills .skills .container .cards .box {
+  background-color: #f9f9f9;
+  border: 1px solid #212121;
+  border-top-left-radius: 2.5rem;
+}
+
+body.light-mode #contacts .contacts .container .icon .box {
+  background-color: #f9f9f9;
+  border: 1px solid #212121;
+}
